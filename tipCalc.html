@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tipCalc.css">
+    </head> 
+    <box class="box">
+    <div id="calc">
+        Tip Calculator
+    </div>
+        <body>
+            <div id="billInp">
+               <input id="billAmt" type="number" placeholder="Bill Amount"/>
+           </div>
+          
+           <select id="tipValue">
+                <option value=".1"> bad (10%)</option>
+                <option value=".2"> good (20%)</option>
+                <option value=".3"> awesome (30%)</option>
+           </select>
+           <div>
+               <button onclick="calculate()" type="button" id="calcTip">calculate</button>
+            </div>
+           <div id="tip"></div>
+    </box>
+       <script src="tipCalc.js"></script>
+    </body>
+</html>

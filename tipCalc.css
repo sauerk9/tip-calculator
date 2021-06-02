@@ -1,0 +1,15 @@
+#calc {
+    font-size: x-large;
+   
+}
+
+.box {
+    box-align: center;
+
+}
+
+#tip {
+    background-color: green;
+    height: 100px;
+    width: 80px;
+}
